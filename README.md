@@ -1,7 +1,7 @@
 # 🎶 Music Web App
 
-It is a Spring Boot backend application that provides RESTful APIs to perform CRUD operations for managing music data.
-This project was developed as part of an assignment for Ektros Private Limited
+- It is a Spring Boot backend application that provides RESTful APIs to perform CRUD operations for managing music data.
+ - This project was developed as part of an assignment for Ektros Private Limited
 ---
 ## 🚀 Features
 
@@ -19,15 +19,18 @@ This project was developed as part of an assignment for Ektros Private Limited
 - Maven (build tool)
 
 ## 📂 Project Structure
-
+```
  ┣ 📂 src/main/java/com/musify
+
  ┃ ┣ 📂 controller   # REST Controllers
  ┃ ┣ 📂 service      # Business logic
+ ┃ ┣ 📂 serviceImpl  # Business logic Implementation
  ┃ ┣ 📂 repository   # JPA Repositories
  ┃ ┗ 📂 model        # Entity classes
  ┣ 📂 src/main/resources
  ┃ ┣ application.properties
  ┗ pom.xml
+```
 
 ⚙️ Configuration – application.properties
  ### To run the project, configure your MySQL database credentials inside src/main/resources/application.properties.
